@@ -1,0 +1,103 @@
+Enter your Heroku credentials.
+Email: Password: 
+2012-02-09T18:08:52+00:00 app[web.1]: Started GET "/pages/help" for 64.73.11.5 at 2012-02-09 10:08:52 -0800
+2012-02-09T18:08:52+00:00 app[web.1]: 
+2012-02-09T18:08:52+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:67:in `rescue in call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:61:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__1454202398486919240__call__4605421136238145393__callbacks'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-cache-1.1/lib/rack/cache/context.rb:132:in `forward'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-cache-1.1/lib/rack/cache/context.rb:241:in `fetch'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-cache-1.1/lib/rack/cache/context.rb:181:in `lookup'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-cache-1.1/lib/rack/cache/context.rb:65:in `call!'
+2012-02-09T18:08:52+00:00 heroku[router]: GET stark-light-3202.heroku.com/pages/help dyno=web.1 queue=0 wait=0ms service=6ms status=500 bytes=643
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   /home/heroku_rack/lib/last_access.rb:15:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/urlmap.rb:49:in `each'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/urlmap.rb:49:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-cache-1.1/lib/rack/cache/context.rb:50:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/connection.rb:74:in `pre_process'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/connection.rb:76:in `block in pre_process'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/connection.rb:57:in `process'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/railties-3.2.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+2012-02-09T18:08:52+00:00 app[web.1]:   /home/heroku_rack/lib/static_assets.rb:9:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/urlmap.rb:64:in `block in call'
+2012-02-09T18:08:52+00:00 app[web.1]:   /home/heroku_rack/lib/date_header.rb:14:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/controllers/controller.rb:80:in `sta
+rt'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/server.rb:156:in `start'
+2012-02-09T18:08:52+00:00 app[web.1]:   .bundle/gems/ruby/1.9.1/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/connection.rb:74:in `catch'
+2012-02-09T18:08:52+00:00 app[web.1]:   eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+2012-02-09T18:08:52+00:00 app[web.1]:   eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/runner.rb:143:in `run!'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/connection.rb:42:in `receive_data'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/runner.rb:177:in `run_command'
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) lib/thin/backends/base.rb:57:in `start'
+2012-02-09T18:08:52+00:00 app[web.1]:   /usr/ruby1.9.2/bin/thin:19:in `load'
+2012-02-09T18:08:52+00:00 app[web.1]: 
+2012-02-09T18:08:52+00:00 app[web.1]:   thin (1.2.6) bin/thin:6:in `<top (required)>'
+2012-02-09T18:08:52+00:00 app[web.1]:   /usr/ruby1.9.2/bin/thin:19:in `<main>'
+2012-02-09T18:08:52+00:00 app[web.1]: cache: [GET /pages/help] miss
+2012-02-09T18:08:52+00:00 app[web.1]: 
+2012-02-09T18:08:52+00:00 heroku[nginx]: 64.73.11.5 - - [09/Feb/2012:18:08:52 +0000] "GET /pages/help HTTP/1.1" 500 643 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1" stark-light-3202.heroku.com
+2012-02-09T18:09:18+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:09:20+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:09:20+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:09:21+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:09:23+00:00 app[rake.1]: Error: No child processes
+2012-02-09T18:09:25+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:09:25+00:00 heroku[rake.1]: Process exited
+2012-02-09T18:10:42+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:10:45+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:10:45+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:10:45+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:10:49+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:10:50+00:00 heroku[rake.1]: Process exited
+2012-02-09T18:22:56+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:22:59+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:22:59+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:22:59+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:23:03+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:23:04+00:00 heroku[rake.1]: Process exited
+2012-02-09T18:30:24+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:30:27+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:30:27+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:30:27+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:30:31+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:30:32+00:00 heroku[rake.1]: Process exited
+2012-02-09T18:31:49+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:31:52+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:31:52+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:31:53+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:31:56+00:00 app[rake.1]: Error: No child processes
+2012-02-09T18:31:57+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:31:57+00:00 heroku[rake.1]: Process exited
+2012-02-09T18:32:01+00:00 heroku[rake.1]: State changed from created to starting
+2012-02-09T18:32:04+00:00 app[rake.1]: Awaiting client
+2012-02-09T18:32:04+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2012-02-09T18:32:04+00:00 heroku[rake.1]: State changed from starting to up
+2012-02-09T18:32:08+00:00 heroku[rake.1]: State changed from up to complete
+2012-02-09T18:32:09+00:00 heroku[rake.1]: Process exited
