@@ -118,7 +118,7 @@ DEPENDENCIES
   autotest-standalone (= 4.5.9)
   jquery-rails
   pg
-  rails (= 3.2.1)
+  rails
   rspec-rails (= 2.6.1)
   sqlite3
   webrat (= 0.7.1)
