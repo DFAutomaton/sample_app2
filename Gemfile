@@ -18,3 +18,7 @@ group :test do
   gem 'autotest-rails-pure', '4.1.2'
   gem 'autotest-standalone', '4.5.9'
 end
+
+group :production do
+	gem 'pg'
+end
